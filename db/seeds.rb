@@ -8,6 +8,6 @@
 
 50.times do |i|
   Post.create!(
-    body: "Body #{i + 1}",
+    body: "投稿_#{i + 1}",
   )
 end
